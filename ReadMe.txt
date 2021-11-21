@@ -1,4 +1,4 @@
-﻿配列コピー速度比較
+配列コピー速度比較
 Array copy speed comparison
 
 1次元配列の内容をコピーする。
@@ -8,11 +8,13 @@ Array copy speed comparison
 ・foe() ループによるコピー
 
 
-環境
+<環境>
 ・Windows10 64bit
 ・Intel Core i7-10700
+・16GB Main Memory　2667MHz　DIMM
 ・VisualStudio 2013
 
+<計測方法>
 1000byteの配列をコピーする。
 コピーを1000000回繰り返した期間をそてぞれの条件で計測した。
 
